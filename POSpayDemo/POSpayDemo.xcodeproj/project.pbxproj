@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FAAAFD20FDF2150079D049 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAAFC20FDF2150079D049 /* AppDelegate.m */; };
+		22FAAB0020FDF2150079D049 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAAFF20FDF2150079D049 /* ViewController.m */; };
+		22FAAB0320FDF2150079D049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FAAB0120FDF2150079D049 /* Main.storyboard */; };
+		22FAAB0520FDF2150079D049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FAAB0420FDF2150079D049 /* Assets.xcassets */; };
+		22FAAB0820FDF2150079D049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FAAB0620FDF2150079D049 /* LaunchScreen.storyboard */; };
+		22FAAB0B20FDF2150079D049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAB0A20FDF2150079D049 /* main.m */; };
+		22FAAB1720FDF2D40079D049 /* libUMSCashierPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAAB1420FDF2D30079D049 /* libUMSCashierPlugin.a */; };
+		22FAAB1820FDF2D40079D049 /* UMSCashierPlugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22FAAB1620FDF2D40079D049 /* UMSCashierPlugin.bundle */; };
+		22FAAB1B20FDF3020079D049 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAAB1A20FDF3020079D049 /* libicucore.tbd */; };
+		22FAAB1D20FDF30D0079D049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAAB1C20FDF30D0079D049 /* Foundation.framework */; };
+		22FAAB1F20FDF3170079D049 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAAB1E20FDF3170079D049 /* UIKit.framework */; };
+		22FAAB2120FDF3210079D049 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAAB2020FDF3210079D049 /* CoreData.framework */; };
+		22FAAB2320FDF32C0079D049 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAAB2220FDF32C0079D049 /* libsqlite3.tbd */; };
+		22FAAB2620FF10080079D049 /* MSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAB2520FF10080079D049 /* MSMainViewController.m */; };
+		22FAAB2920FF124E0079D049 /* MSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAB2820FF124E0079D049 /* MSSettingViewController.m */; };
+		22FAAB3020FF2A150079D049 /* MSConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAB2F20FF2A150079D049 /* MSConfigViewController.m */; };
+		22FAAB3320FF444E0079D049 /* UMSMerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FAAB3220FF444E0079D049 /* UMSMerInfo.m */; };
+		2DA5C02C2B1915BA21657105 /* libPods-POSpayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F65023AB28CEB6370C57533 /* libPods-POSpayDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22FAAAF820FDF2150079D049 /* POSpayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSpayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FAAAFB20FDF2150079D049 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22FAAAFC20FDF2150079D049 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22FAAAFE20FDF2150079D049 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22FAAAFF20FDF2150079D049 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22FAAB0220FDF2150079D049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FAAB0420FDF2150079D049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FAAB0720FDF2150079D049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FAAB0920FDF2150079D049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FAAB0A20FDF2150079D049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FAAB1420FDF2D30079D049 /* libUMSCashierPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSCashierPlugin.a; sourceTree = "<group>"; };
+		22FAAB1520FDF2D30079D049 /* UMSCashierPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSCashierPlugin.h; sourceTree = "<group>"; };
+		22FAAB1620FDF2D40079D049 /* UMSCashierPlugin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSCashierPlugin.bundle; sourceTree = "<group>"; };
+		22FAAB1A20FDF3020079D049 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		22FAAB1C20FDF30D0079D049 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22FAAB1E20FDF3170079D049 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22FAAB2020FDF3210079D049 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22FAAB2220FDF32C0079D049 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		22FAAB2420FF10080079D049 /* MSMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMainViewController.h; sourceTree = "<group>"; };
+		22FAAB2520FF10080079D049 /* MSMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMainViewController.m; sourceTree = "<group>"; };
+		22FAAB2720FF124E0079D049 /* MSSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSSettingViewController.h; sourceTree = "<group>"; };
+		22FAAB2820FF124E0079D049 /* MSSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSSettingViewController.m; sourceTree = "<group>"; };
+		22FAAB2E20FF2A150079D049 /* MSConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSConfigViewController.h; sourceTree = "<group>"; };
+		22FAAB2F20FF2A150079D049 /* MSConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSConfigViewController.m; sourceTree = "<group>"; };
+		22FAAB3120FF444E0079D049 /* UMSMerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSMerInfo.h; sourceTree = "<group>"; };
+		22FAAB3220FF444E0079D049 /* UMSMerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSMerInfo.m; sourceTree = "<group>"; };
+		4F65023AB28CEB6370C57533 /* libPods-POSpayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POSpayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A184A1C8F4F0B2FD0A2700 /* Pods-POSpayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSpayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POSpayDemo/Pods-POSpayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9DDDEEAE9AF846DF367FC1B5 /* Pods-POSpayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSpayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-POSpayDemo/Pods-POSpayDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FAAAF520FDF2150079D049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FAAB2320FDF32C0079D049 /* libsqlite3.tbd in Frameworks */,
+				22FAAB2120FDF3210079D049 /* CoreData.framework in Frameworks */,
+				22FAAB1F20FDF3170079D049 /* UIKit.framework in Frameworks */,
+				22FAAB1D20FDF30D0079D049 /* Foundation.framework in Frameworks */,
+				22FAAB1B20FDF3020079D049 /* libicucore.tbd in Frameworks */,
+				22FAAB1720FDF2D40079D049 /* libUMSCashierPlugin.a in Frameworks */,
+				2DA5C02C2B1915BA21657105 /* libPods-POSpayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FAAAEF20FDF2150079D049 = {
+			isa = PBXGroup;
+			children = (
+				22FAAAFA20FDF2150079D049 /* POSpayDemo */,
+				22FAAAF920FDF2150079D049 /* Products */,
+				22FAAB1920FDF3020079D049 /* Frameworks */,
+				2F46AC254B187EA4986F0108 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		22FAAAF920FDF2150079D049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FAAAF820FDF2150079D049 /* POSpayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FAAAFA20FDF2150079D049 /* POSpayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22FAAB0920FDF2150079D049 /* Info.plist */,
+				22FAAB0120FDF2150079D049 /* Main.storyboard */,
+				22FAAB0420FDF2150079D049 /* Assets.xcassets */,
+				22FAAB0620FDF2150079D049 /* LaunchScreen.storyboard */,
+				22FAAB0A20FDF2150079D049 /* main.m */,
+				22FAAB1320FDF2330079D049 /* Basic */,
+				22FAAB1120FDF2270079D049 /* lib */,
+			);
+			path = POSpayDemo;
+			sourceTree = "<group>";
+		};
+		22FAAB1120FDF2270079D049 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				22FAAB1420FDF2D30079D049 /* libUMSCashierPlugin.a */,
+				22FAAB1620FDF2D40079D049 /* UMSCashierPlugin.bundle */,
+				22FAAB1520FDF2D30079D049 /* UMSCashierPlugin.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		22FAAB1320FDF2330079D049 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				22FAAB3120FF444E0079D049 /* UMSMerInfo.h */,
+				22FAAB3220FF444E0079D049 /* UMSMerInfo.m */,
+				22FAAAFB20FDF2150079D049 /* AppDelegate.h */,
+				22FAAAFC20FDF2150079D049 /* AppDelegate.m */,
+				22FAAAFE20FDF2150079D049 /* ViewController.h */,
+				22FAAAFF20FDF2150079D049 /* ViewController.m */,
+				22FAAB2420FF10080079D049 /* MSMainViewController.h */,
+				22FAAB2520FF10080079D049 /* MSMainViewController.m */,
+				22FAAB2720FF124E0079D049 /* MSSettingViewController.h */,
+				22FAAB2820FF124E0079D049 /* MSSettingViewController.m */,
+				22FAAB2E20FF2A150079D049 /* MSConfigViewController.h */,
+				22FAAB2F20FF2A150079D049 /* MSConfigViewController.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		22FAAB1920FDF3020079D049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22FAAB2220FDF32C0079D049 /* libsqlite3.tbd */,
+				22FAAB2020FDF3210079D049 /* CoreData.framework */,
+				22FAAB1E20FDF3170079D049 /* UIKit.framework */,
+				22FAAB1C20FDF30D0079D049 /* Foundation.framework */,
+				22FAAB1A20FDF3020079D049 /* libicucore.tbd */,
+				4F65023AB28CEB6370C57533 /* libPods-POSpayDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F46AC254B187EA4986F0108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66A184A1C8F4F0B2FD0A2700 /* Pods-POSpayDemo.debug.xcconfig */,
+				9DDDEEAE9AF846DF367FC1B5 /* Pods-POSpayDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FAAAF720FDF2150079D049 /* POSpayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FAAB0E20FDF2150079D049 /* Build configuration list for PBXNativeTarget "POSpayDemo" */;
+			buildPhases = (
+				49D1B02F23698E2147639D1E /* [CP] Check Pods Manifest.lock */,
+				22FAAAF420FDF2150079D049 /* Sources */,
+				22FAAAF520FDF2150079D049 /* Frameworks */,
+				22FAAAF620FDF2150079D049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSpayDemo;
+			productName = POSpayDemo;
+			productReference = 22FAAAF820FDF2150079D049 /* POSpayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FAAAF020FDF2150079D049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zzg;
+				TargetAttributes = {
+					22FAAAF720FDF2150079D049 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22FAAAF320FDF2150079D049 /* Build configuration list for PBXProject "POSpayDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FAAAEF20FDF2150079D049;
+			productRefGroup = 22FAAAF920FDF2150079D049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FAAAF720FDF2150079D049 /* POSpayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FAAAF620FDF2150079D049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FAAB0820FDF2150079D049 /* LaunchScreen.storyboard in Resources */,
+				22FAAB0520FDF2150079D049 /* Assets.xcassets in Resources */,
+				22FAAB1820FDF2D40079D049 /* UMSCashierPlugin.bundle in Resources */,
+				22FAAB0320FDF2150079D049 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D1B02F23698E2147639D1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSpayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FAAAF420FDF2150079D049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FAAB0020FDF2150079D049 /* ViewController.m in Sources */,
+				22FAAB2620FF10080079D049 /* MSMainViewController.m in Sources */,
+				22FAAB3020FF2A150079D049 /* MSConfigViewController.m in Sources */,
+				22FAAB2920FF124E0079D049 /* MSSettingViewController.m in Sources */,
+				22FAAB0B20FDF2150079D049 /* main.m in Sources */,
+				22FAAB3320FF444E0079D049 /* UMSMerInfo.m in Sources */,
+				22FAAAFD20FDF2150079D049 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22FAAB0120FDF2150079D049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FAAB0220FDF2150079D049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FAAB0620FDF2150079D049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FAAB0720FDF2150079D049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FAAB0C20FDF2150079D049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22FAAB0D20FDF2150079D049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FAAB0F20FDF2150079D049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A184A1C8F4F0B2FD0A2700 /* Pods-POSpayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNBW2BT8S6;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = POSpayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/POSpayDemo/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.car;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Debug;
+		};
+		22FAAB1020FDF2150079D049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDDEEAE9AF846DF367FC1B5 /* Pods-POSpayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNBW2BT8S6;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = POSpayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/POSpayDemo/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.car;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FAAAF320FDF2150079D049 /* Build configuration list for PBXProject "POSpayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FAAB0C20FDF2150079D049 /* Debug */,
+				22FAAB0D20FDF2150079D049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FAAB0E20FDF2150079D049 /* Build configuration list for PBXNativeTarget "POSpayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FAAB0F20FDF2150079D049 /* Debug */,
+				22FAAB1020FDF2150079D049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FAAAF020FDF2150079D049 /* Project object */;
+}
