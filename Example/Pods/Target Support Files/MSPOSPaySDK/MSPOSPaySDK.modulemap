@@ -1,0 +1,6 @@
+framework module MSPOSPaySDK {
+  umbrella header "MSPOSPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

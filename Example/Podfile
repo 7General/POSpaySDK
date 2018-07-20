@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSPOSPaySDK_Example' do
+  pod 'MSPOSPaySDK', :path => '../'
+
+  target 'MSPOSPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
