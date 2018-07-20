@@ -8,35 +8,31 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSPOSPaySDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MSPOSPaySDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.1'
+  s.summary          = 'MSPOSPaySDK for POS'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wanghuizhou21@163.com/MSPOSPaySDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/7General'
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wanghuizhou21@163.com' => 'wanghuizhou@guazi.com' }
-  s.source           = { :git => 'https://github.com/wanghuizhou21@163.com/MSPOSPaySDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/7General/POSpaySDK.git', :tag => s.version.to_s }
+  
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MSPOSPaySDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MSPOSPaySDK' => ['MSPOSPaySDK/Assets/*.png']
-  # }
+  s.resources    = 'MSPOSPaySDK/Boundles/UMSCashierPlugin.bundle'
+  s.vendored_libraries = 'MSPOSPaySDK/Frameworks/libUMSCashierPlugin.a'
+  
+  s.frameworks        = 'CoreData', 'UIKit', 'Foundation'
+  s.libraries         = 'sqlite3', 'icucore'
+  
+#  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
+

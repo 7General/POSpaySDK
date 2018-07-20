@@ -1,9 +1,9 @@
 {
   "name": "MSPOSPaySDK",
-  "version": "0.1.0",
-  "summary": "A short description of MSPOSPaySDK.",
+  "version": "0.0.1",
+  "summary": "MSPOSPaySDK for POS",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wanghuizhou21@163.com/MSPOSPaySDK",
+  "homepage": "https://github.com/7General",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "wanghuizhou21@163.com": "wanghuizhou@guazi.com"
   },
   "source": {
-    "git": "https://github.com/wanghuizhou21@163.com/MSPOSPaySDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/7General/POSpaySDK.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MSPOSPaySDK/Classes/**/*"
+  "source_files": "MSPOSPaySDK/Classes/**/*",
+  "resources": "MSPOSPaySDK/Boundles/UMSCashierPlugin.bundle",
+  "vendored_libraries": "MSPOSPaySDK/Frameworks/libUMSCashierPlugin.a",
+  "frameworks": [
+    "CoreData",
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "sqlite3",
+    "icucore"
+  ]
 }

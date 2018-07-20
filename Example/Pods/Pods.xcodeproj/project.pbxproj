@@ -7,183 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A35E3D05BA2C2C805E8C8C22DA09BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2C1BC7767714E05D625499AC51D8EB29 /* Pods-MSPOSPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6D698AB13992C3F6C502E1F8C02E2B /* Pods-MSPOSPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35F02EE106DE87286FB9291AE91F8D29 /* Pods-MSPOSPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3528C9AF4B29DFF9B86E7265C1A17 /* Pods-MSPOSPaySDK_Example-dummy.m */; };
-		3EEA82FFAB937FDDD570DC32A8F58935 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E5243886603B928FEA68D383D9373D /* ReplaceMe.m */; };
-		44DF3800912ECA9F35E58046ED2DFF82 /* MSPOSPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0894EAE602F5A695AE9322AA9B19F9 /* MSPOSPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		468983381BD7191388B99115A4BC9289 /* MSPOSPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5B05783D01B63606B873A12669EF0 /* MSPOSPaySDK-dummy.m */; };
-		7182BC11C63576934A4187E8061478F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9667F78C2557A56FEB0344EA6E30F874 /* Pods-MSPOSPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2059F0A7ACA56BCCBACECF136A83A5F /* Pods-MSPOSPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7FBDFCA87D51EE8EC50F0F5B53DF009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D8A675871180AE4D860A38A1D57EFC82 /* Pods-MSPOSPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A54D37A762FB8BB59D44F2E1CC5446 /* Pods-MSPOSPaySDK_Tests-dummy.m */; };
+		005EE59BC54251DB75BE2EC36FF5E194 /* Pods-MSPOSPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 192812A04B12B16899BC0245B21F0A60 /* Pods-MSPOSPaySDK_Tests-dummy.m */; };
+		5D8967D77CA4580366ECD8A1DA42C0FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		73BEDB13E467AEB4B9E743684734E6DE /* Pods-MSPOSPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3904534FF1A380EF8103B59C84810 /* Pods-MSPOSPaySDK_Example-dummy.m */; };
+		ECCBC2D7B85D6AB049B76F13B44426BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6053BBEA35398A318DBFAA2B1ABED84E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5A52AA9346C97D616DF21C7BDCB3398;
-			remoteInfo = MSPOSPaySDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		06E417EFF2F1F45EC6FD2391D5EAA19D /* MSPOSPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPOSPaySDK.xcconfig; sourceTree = "<group>"; };
-		114F12C2E46123E4662EC5D86927E4B7 /* MSPOSPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPOSPaySDK-prefix.pch"; sourceTree = "<group>"; };
-		1A45AF194409591C0A56C3D4DAA9046C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1B368FB079D90492B4CC7E4E1777D7A0 /* MSPOSPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSPOSPaySDK.modulemap; sourceTree = "<group>"; };
-		1BE5B05783D01B63606B873A12669EF0 /* MSPOSPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPOSPaySDK-dummy.m"; sourceTree = "<group>"; };
-		42385E33C9BA8065ACA9DF3024AD259C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		42CFA054F4C6370AF5D5BFEDAE072E24 /* Pods-MSPOSPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSPOSPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
-		51A54D37A762FB8BB59D44F2E1CC5446 /* Pods-MSPOSPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPOSPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		5733FD6EAC76552FB543F96431C193D1 /* Pods-MSPOSPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPOSPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B7982EEF0AA192C7BFE8C0C9AEA39AA /* MSPOSPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSPOSPaySDK.framework; path = MSPOSPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDC586E684472F72FE72517750A135A /* UMSCashierPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSCashierPlugin.h; path = MSPOSPaySDK/Classes/UMSCashierPlugin.h; sourceTree = "<group>"; };
+		0F8F74AE234FEE28BA42E8678D36C665 /* Pods-MSPOSPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		10A284A162C0DE10CBB86ADB82935FEA /* libPods-MSPOSPaySDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSPOSPaySDK_Tests.a"; path = "libPods-MSPOSPaySDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132C2DE1885CB390BB6B523745D2E942 /* Pods-MSPOSPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPOSPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		192812A04B12B16899BC0245B21F0A60 /* Pods-MSPOSPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPOSPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		1DF1426DD4DDED83161FB686DB3427CB /* libPods-MSPOSPaySDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSPOSPaySDK_Example.a"; path = "libPods-MSPOSPaySDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318EECF0C2FEA63C28F56DA93B568080 /* UMSCashierPlugin.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSCashierPlugin.bundle; path = MSPOSPaySDK/Boundles/UMSCashierPlugin.bundle; sourceTree = "<group>"; };
+		6154AA9BEB11FB71323EF82E770117F8 /* Pods-MSPOSPaySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		62070881E1F92A4B8AF72008DF27FAA3 /* Pods-MSPOSPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		692F9D5DAF4193EA876C1AE9EB16E359 /* Pods-MSPOSPaySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6A8335C5065BCBF9E7A707F562F9D81E /* Pods-MSPOSPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPOSPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6EAAF64A0985FFC48A46C60568265B7F /* Pods-MSPOSPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7712EC2E0D756622A48F9CB87ECF4FDD /* Pods-MSPOSPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
-		84E3528C9AF4B29DFF9B86E7265C1A17 /* Pods-MSPOSPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPOSPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
-		87E663BFE1CD57E12E855501ADE54416 /* Pods_MSPOSPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSPOSPaySDK_Tests.framework; path = "Pods-MSPOSPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E6D698AB13992C3F6C502E1F8C02E2B /* Pods-MSPOSPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSPOSPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		922920232F17126B1BBD2A3813FD864C /* Pods-MSPOSPaySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		8BF3904534FF1A380EF8103B59C84810 /* Pods-MSPOSPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPOSPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A19E9E27A3D511A1F45D7269CDD00B75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF792F14B0D67D73436CA3829742E873 /* Pods-MSPOSPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSPOSPaySDK_Example.modulemap"; sourceTree = "<group>"; };
-		BD0894EAE602F5A695AE9322AA9B19F9 /* MSPOSPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPOSPaySDK-umbrella.h"; sourceTree = "<group>"; };
-		C8FCEDC2D31E35E939E38CA428CC51CA /* Pods-MSPOSPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPOSPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D2059F0A7ACA56BCCBACECF136A83A5F /* Pods-MSPOSPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSPOSPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D704A5C149DDFD5EA0D3C82F68D32DAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8650599385EFEDF0ABFAB2C83D2DAD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB91893FDBEA54E9B4E30BDAECD9EDDA /* MSPOSPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSPOSPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E0D7E8E4FD309A240C4E5050BE0248AF /* Pods_MSPOSPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSPOSPaySDK_Example.framework; path = "Pods-MSPOSPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4E5243886603B928FEA68D383D9373D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MSPOSPaySDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E6686AD4CE9F8736DEC88A45B54E5713 /* Pods-MSPOSPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFB7552D381D1C8B21514ABB6F756C9F /* Pods-MSPOSPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1CA9CDAD80D1DB0E65F0D4B44655359 /* Pods-MSPOSPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F95C16F4FB75CD978C1952AFD3731443 /* Pods-MSPOSPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPOSPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF08EF64999249A8425928A663644786 /* Pods-MSPOSPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		942AFDF32C23859010C665C30ABD3B30 /* Pods-MSPOSPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPOSPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC6462DDCF046C5B4E6B5733A2AA63A6 /* Pods-MSPOSPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPOSPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE94CC76E4ED97615B9CFC3ED7C9CA01 /* Pods-MSPOSPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPOSPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0B4488643B894C16F0D5645FAF3F0FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B3EAC4383C9C6A5F1F337D2902587A6D /* Pods-MSPOSPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB1E05CAA4C036AED79C3009A8EB402A /* Pods-MSPOSPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF265C7CF315666DA7194C17E5AF83E9 /* Pods-MSPOSPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
+		D30F5EE4BDD53040FF636102BA04ABFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EBF9016DFD15219D43600D055B70AE80 /* MSPOSPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSPOSPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE38482299D595A1445F9E6D390293FC /* libUMSCashierPlugin.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSCashierPlugin.a; path = MSPOSPaySDK/Frameworks/libUMSCashierPlugin.a; sourceTree = "<group>"; };
+		F72C43C67B85F4302B32390638370968 /* Pods-MSPOSPaySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPOSPaySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		FEBD7B49A0295F4E328C54DDAD56D703 /* Pods-MSPOSPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPOSPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0153F63BEF74DA32B6382D55415E8147 /* Frameworks */ = {
+		08FB1B3A7F2F4DE5F075EB17C92617CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A35E3D05BA2C2C805E8C8C22DA09BF /* Foundation.framework in Frameworks */,
+				ECCBC2D7B85D6AB049B76F13B44426BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C4DD150AC314DCA1BF9474B21BF0992 /* Frameworks */ = {
+		16153AFC1564D3E9D2DA418631C6C36C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7FBDFCA87D51EE8EC50F0F5B53DF009 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C065886DA0A30D4EE87AAD3DE5474C55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7182BC11C63576934A4187E8061478F0 /* Foundation.framework in Frameworks */,
+				5D8967D77CA4580366ECD8A1DA42C0FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0851379D30DCDD24EB80394FD382832C /* Products */ = {
+		0C86E04BBF9B2CD30EAB55FDCAEBC655 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5B7982EEF0AA192C7BFE8C0C9AEA39AA /* MSPOSPaySDK.framework */,
-				E0D7E8E4FD309A240C4E5050BE0248AF /* Pods_MSPOSPaySDK_Example.framework */,
-				87E663BFE1CD57E12E855501ADE54416 /* Pods_MSPOSPaySDK_Tests.framework */,
+				318EECF0C2FEA63C28F56DA93B568080 /* UMSCashierPlugin.bundle */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		316437B54FA30FBB005876F99A099486 /* Pod */ = {
+		2365E81AFB3F73017A2B2A7C55DDE694 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1A45AF194409591C0A56C3D4DAA9046C /* LICENSE */,
-				DB91893FDBEA54E9B4E30BDAECD9EDDA /* MSPOSPaySDK.podspec */,
-				42385E33C9BA8065ACA9DF3024AD259C /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		38EA2938A3A20E1E3AD40BDC43E53975 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D704A5C149DDFD5EA0D3C82F68D32DAE /* Info.plist */,
-				1B368FB079D90492B4CC7E4E1777D7A0 /* MSPOSPaySDK.modulemap */,
-				06E417EFF2F1F45EC6FD2391D5EAA19D /* MSPOSPaySDK.xcconfig */,
-				1BE5B05783D01B63606B873A12669EF0 /* MSPOSPaySDK-dummy.m */,
-				114F12C2E46123E4662EC5D86927E4B7 /* MSPOSPaySDK-prefix.pch */,
-				BD0894EAE602F5A695AE9322AA9B19F9 /* MSPOSPaySDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSPOSPaySDK";
-			sourceTree = "<group>";
-		};
-		4A92CD507B6198B9A30E91C87E83B57A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C5FC287ADF5B4F6F4791B335170E7C2 /* MSPOSPaySDK */,
+				566417DDA12C425938633C5D464F25DF /* MSPOSPaySDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		566417DDA12C425938633C5D464F25DF /* MSPOSPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC586E684472F72FE72517750A135A /* UMSCashierPlugin.h */,
+				FE0827876EF222BADE2AFBC28DADDC88 /* Frameworks */,
+				C7FE82FFDD8F2519259C0A9F70196B55 /* Pod */,
+				0C86E04BBF9B2CD30EAB55FDCAEBC655 /* Resources */,
+			);
+			name = MSPOSPaySDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4A92CD507B6198B9A30E91C87E83B57A /* Development Pods */,
+				2365E81AFB3F73017A2B2A7C55DDE694 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0851379D30DCDD24EB80394FD382832C /* Products */,
-				876019F644C52B3CABD70AE520C295C5 /* Targets Support Files */,
+				9DA1329E12AEB1545066191A6EC2607E /* Products */,
+				E8A75E7A87D91BACB096CB8411FD7E6D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		876019F644C52B3CABD70AE520C295C5 /* Targets Support Files */ = {
+		9DA1329E12AEB1545066191A6EC2607E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3A048A3BF2A71E46663C7EDBF747244 /* Pods-MSPOSPaySDK_Example */,
-				8B16BF55473C93E1A6209F1DFB0BC087 /* Pods-MSPOSPaySDK_Tests */,
+				1DF1426DD4DDED83161FB686DB3427CB /* libPods-MSPOSPaySDK_Example.a */,
+				10A284A162C0DE10CBB86ADB82935FEA /* libPods-MSPOSPaySDK_Tests.a */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8B16BF55473C93E1A6209F1DFB0BC087 /* Pods-MSPOSPaySDK_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D8650599385EFEDF0ABFAB2C83D2DAD2 /* Info.plist */,
-				42CFA054F4C6370AF5D5BFEDAE072E24 /* Pods-MSPOSPaySDK_Tests.modulemap */,
-				6A8335C5065BCBF9E7A707F562F9D81E /* Pods-MSPOSPaySDK_Tests-acknowledgements.markdown */,
-				F95C16F4FB75CD978C1952AFD3731443 /* Pods-MSPOSPaySDK_Tests-acknowledgements.plist */,
-				51A54D37A762FB8BB59D44F2E1CC5446 /* Pods-MSPOSPaySDK_Tests-dummy.m */,
-				692F9D5DAF4193EA876C1AE9EB16E359 /* Pods-MSPOSPaySDK_Tests-frameworks.sh */,
-				922920232F17126B1BBD2A3813FD864C /* Pods-MSPOSPaySDK_Tests-resources.sh */,
-				D2059F0A7ACA56BCCBACECF136A83A5F /* Pods-MSPOSPaySDK_Tests-umbrella.h */,
-				E6686AD4CE9F8736DEC88A45B54E5713 /* Pods-MSPOSPaySDK_Tests.debug.xcconfig */,
-				F1CA9CDAD80D1DB0E65F0D4B44655359 /* Pods-MSPOSPaySDK_Tests.release.xcconfig */,
-			);
-			name = "Pods-MSPOSPaySDK_Tests";
-			path = "Target Support Files/Pods-MSPOSPaySDK_Tests";
-			sourceTree = "<group>";
-		};
-		8C5FC287ADF5B4F6F4791B335170E7C2 /* MSPOSPaySDK */ = {
-			isa = PBXGroup;
-			children = (
-				E4E5243886603B928FEA68D383D9373D /* ReplaceMe.m */,
-				316437B54FA30FBB005876F99A099486 /* Pod */,
-				38EA2938A3A20E1E3AD40BDC43E53975 /* Support Files */,
-			);
-			name = MSPOSPaySDK;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -194,6 +116,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C3C5D180EF5469F45611A759C3D09713 /* Pods-MSPOSPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				132C2DE1885CB390BB6B523745D2E942 /* Pods-MSPOSPaySDK_Example-acknowledgements.markdown */,
+				AE94CC76E4ED97615B9CFC3ED7C9CA01 /* Pods-MSPOSPaySDK_Example-acknowledgements.plist */,
+				8BF3904534FF1A380EF8103B59C84810 /* Pods-MSPOSPaySDK_Example-dummy.m */,
+				B3EAC4383C9C6A5F1F337D2902587A6D /* Pods-MSPOSPaySDK_Example-frameworks.sh */,
+				BF265C7CF315666DA7194C17E5AF83E9 /* Pods-MSPOSPaySDK_Example-resources.sh */,
+				0F8F74AE234FEE28BA42E8678D36C665 /* Pods-MSPOSPaySDK_Example.debug.xcconfig */,
+				BB1E05CAA4C036AED79C3009A8EB402A /* Pods-MSPOSPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-MSPOSPaySDK_Example";
+			path = "Target Support Files/Pods-MSPOSPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		C7FE82FFDD8F2519259C0A9F70196B55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4488643B894C16F0D5645FAF3F0FE /* LICENSE */,
+				EBF9016DFD15219D43600D055B70AE80 /* MSPOSPaySDK.podspec */,
+				D30F5EE4BDD53040FF636102BA04ABFB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,79 +149,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E3A048A3BF2A71E46663C7EDBF747244 /* Pods-MSPOSPaySDK_Example */ = {
+		E8A75E7A87D91BACB096CB8411FD7E6D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A19E9E27A3D511A1F45D7269CDD00B75 /* Info.plist */,
-				AF792F14B0D67D73436CA3829742E873 /* Pods-MSPOSPaySDK_Example.modulemap */,
-				5733FD6EAC76552FB543F96431C193D1 /* Pods-MSPOSPaySDK_Example-acknowledgements.markdown */,
-				C8FCEDC2D31E35E939E38CA428CC51CA /* Pods-MSPOSPaySDK_Example-acknowledgements.plist */,
-				84E3528C9AF4B29DFF9B86E7265C1A17 /* Pods-MSPOSPaySDK_Example-dummy.m */,
-				6EAAF64A0985FFC48A46C60568265B7F /* Pods-MSPOSPaySDK_Example-frameworks.sh */,
-				7712EC2E0D756622A48F9CB87ECF4FDD /* Pods-MSPOSPaySDK_Example-resources.sh */,
-				8E6D698AB13992C3F6C502E1F8C02E2B /* Pods-MSPOSPaySDK_Example-umbrella.h */,
-				EFB7552D381D1C8B21514ABB6F756C9F /* Pods-MSPOSPaySDK_Example.debug.xcconfig */,
-				FF08EF64999249A8425928A663644786 /* Pods-MSPOSPaySDK_Example.release.xcconfig */,
+				C3C5D180EF5469F45611A759C3D09713 /* Pods-MSPOSPaySDK_Example */,
+				F5D8C265A8A161E7671D55B8F1648751 /* Pods-MSPOSPaySDK_Tests */,
 			);
-			name = "Pods-MSPOSPaySDK_Example";
-			path = "Target Support Files/Pods-MSPOSPaySDK_Example";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5D8C265A8A161E7671D55B8F1648751 /* Pods-MSPOSPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				942AFDF32C23859010C665C30ABD3B30 /* Pods-MSPOSPaySDK_Tests-acknowledgements.markdown */,
+				AC6462DDCF046C5B4E6B5733A2AA63A6 /* Pods-MSPOSPaySDK_Tests-acknowledgements.plist */,
+				192812A04B12B16899BC0245B21F0A60 /* Pods-MSPOSPaySDK_Tests-dummy.m */,
+				6154AA9BEB11FB71323EF82E770117F8 /* Pods-MSPOSPaySDK_Tests-frameworks.sh */,
+				F72C43C67B85F4302B32390638370968 /* Pods-MSPOSPaySDK_Tests-resources.sh */,
+				62070881E1F92A4B8AF72008DF27FAA3 /* Pods-MSPOSPaySDK_Tests.debug.xcconfig */,
+				FEBD7B49A0295F4E328C54DDAD56D703 /* Pods-MSPOSPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-MSPOSPaySDK_Tests";
+			path = "Target Support Files/Pods-MSPOSPaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		FE0827876EF222BADE2AFBC28DADDC88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE38482299D595A1445F9E6D390293FC /* libUMSCashierPlugin.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5728413841B6CE2B35157E7088F78030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C1BC7767714E05D625499AC51D8EB29 /* Pods-MSPOSPaySDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9031A9C9018E30331B08F5DDB8273639 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9667F78C2557A56FEB0344EA6E30F874 /* Pods-MSPOSPaySDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1486BAD0C25228153F608D434A50FFC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44DF3800912ECA9F35E58046ED2DFF82 /* MSPOSPaySDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		447389F051D43C2FBCA951D2443BF43C /* Pods-MSPOSPaySDK_Example */ = {
+		9FFD0583CABA5D2BDE06A75334831C1A /* Pods-MSPOSPaySDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A117E37FEFB2577FDD7DE9612742C17 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Example" */;
+			buildConfigurationList = FB6554BD668AD713DE16AEFCA516AB84 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Tests" */;
 			buildPhases = (
-				FAC1C0A76EB468C21B659473BBAA2241 /* Sources */,
-				C065886DA0A30D4EE87AAD3DE5474C55 /* Frameworks */,
-				5728413841B6CE2B35157E7088F78030 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6E705C8687276BC08469746573EB5ABB /* PBXTargetDependency */,
-			);
-			name = "Pods-MSPOSPaySDK_Example";
-			productName = "Pods-MSPOSPaySDK_Example";
-			productReference = E0D7E8E4FD309A240C4E5050BE0248AF /* Pods_MSPOSPaySDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		78A4C783D80776F6D41CF546CA92FCD3 /* Pods-MSPOSPaySDK_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A86D73EA8B9F367BF2FE30FA92D9EDE7 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Tests" */;
-			buildPhases = (
-				9EC3412559257FBDEB04113F9F794151 /* Sources */,
-				7C4DD150AC314DCA1BF9474B21BF0992 /* Frameworks */,
-				9031A9C9018E30331B08F5DDB8273639 /* Headers */,
+				95996C2DED5FE5C3F3C00DF804F5DFF8 /* Sources */,
+				08FB1B3A7F2F4DE5F075EB17C92617CC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,25 +197,24 @@
 			);
 			name = "Pods-MSPOSPaySDK_Tests";
 			productName = "Pods-MSPOSPaySDK_Tests";
-			productReference = 87E663BFE1CD57E12E855501ADE54416 /* Pods_MSPOSPaySDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 10A284A162C0DE10CBB86ADB82935FEA /* libPods-MSPOSPaySDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		D5A52AA9346C97D616DF21C7BDCB3398 /* MSPOSPaySDK */ = {
+		AC4A46DAA0081951C024F319826BB5DE /* Pods-MSPOSPaySDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F7D9666E4E2AB0B89D7E4B876AF33C4 /* Build configuration list for PBXNativeTarget "MSPOSPaySDK" */;
+			buildConfigurationList = E4E726A644B554434223B6A2ACCD9070 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Example" */;
 			buildPhases = (
-				965707B246972A2D29523AB2BB9825CD /* Sources */,
-				0153F63BEF74DA32B6382D55415E8147 /* Frameworks */,
-				A1486BAD0C25228153F608D434A50FFC /* Headers */,
+				41447C9D2A1115EFDAF74564678AC134 /* Sources */,
+				16153AFC1564D3E9D2DA418631C6C36C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MSPOSPaySDK;
-			productName = MSPOSPaySDK;
-			productReference = 5B7982EEF0AA192C7BFE8C0C9AEA39AA /* MSPOSPaySDK.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "Pods-MSPOSPaySDK_Example";
+			productName = "Pods-MSPOSPaySDK_Example";
+			productReference = 1DF1426DD4DDED83161FB686DB3427CB /* libPods-MSPOSPaySDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -319,123 +233,80 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0851379D30DCDD24EB80394FD382832C /* Products */;
+			productRefGroup = 9DA1329E12AEB1545066191A6EC2607E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5A52AA9346C97D616DF21C7BDCB3398 /* MSPOSPaySDK */,
-				447389F051D43C2FBCA951D2443BF43C /* Pods-MSPOSPaySDK_Example */,
-				78A4C783D80776F6D41CF546CA92FCD3 /* Pods-MSPOSPaySDK_Tests */,
+				AC4A46DAA0081951C024F319826BB5DE /* Pods-MSPOSPaySDK_Example */,
+				9FFD0583CABA5D2BDE06A75334831C1A /* Pods-MSPOSPaySDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		965707B246972A2D29523AB2BB9825CD /* Sources */ = {
+		41447C9D2A1115EFDAF74564678AC134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468983381BD7191388B99115A4BC9289 /* MSPOSPaySDK-dummy.m in Sources */,
-				3EEA82FFAB937FDDD570DC32A8F58935 /* ReplaceMe.m in Sources */,
+				73BEDB13E467AEB4B9E743684734E6DE /* Pods-MSPOSPaySDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EC3412559257FBDEB04113F9F794151 /* Sources */ = {
+		95996C2DED5FE5C3F3C00DF804F5DFF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A675871180AE4D860A38A1D57EFC82 /* Pods-MSPOSPaySDK_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAC1C0A76EB468C21B659473BBAA2241 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35F02EE106DE87286FB9291AE91F8D29 /* Pods-MSPOSPaySDK_Example-dummy.m in Sources */,
+				005EE59BC54251DB75BE2EC36FF5E194 /* Pods-MSPOSPaySDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6E705C8687276BC08469746573EB5ABB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSPOSPaySDK;
-			target = D5A52AA9346C97D616DF21C7BDCB3398 /* MSPOSPaySDK */;
-			targetProxy = 6053BBEA35398A318DBFAA2B1ABED84E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		2C4840BF266A8EA6B256ED54EDD8AC3F /* Debug */ = {
+		06DDB317AA31B35094095845507A7BA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6686AD4CE9F8736DEC88A45B54E5713 /* Pods-MSPOSPaySDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0F8F74AE234FEE28BA42E8678D36C665 /* Pods-MSPOSPaySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MSPOSPaySDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MSPOSPaySDK_Tests/Pods-MSPOSPaySDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		459083D331D78D83A4016C71C5CC3A35 /* Release */ = {
+		1727FF0D185CC71E25ABC6492CB4431F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1CA9CDAD80D1DB0E65F0D4B44655359 /* Pods-MSPOSPaySDK_Tests.release.xcconfig */;
+			baseConfigurationReference = BB1E05CAA4C036AED79C3009A8EB402A /* Pods-MSPOSPaySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MSPOSPaySDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MSPOSPaySDK_Tests/Pods-MSPOSPaySDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,74 +369,50 @@
 			};
 			name = Debug;
 		};
-		9252A92889A1EECFD5FEBAD0CB6CA643 /* Debug */ = {
+		7C3D6AE15122A065D769E1D09D887DBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFB7552D381D1C8B21514ABB6F756C9F /* Pods-MSPOSPaySDK_Example.debug.xcconfig */;
+			baseConfigurationReference = FEBD7B49A0295F4E328C54DDAD56D703 /* Pods-MSPOSPaySDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MSPOSPaySDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MSPOSPaySDK_Example/Pods-MSPOSPaySDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A427116B3C034FC0336B0C7786ADF75C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF08EF64999249A8425928A663644786 /* Pods-MSPOSPaySDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MSPOSPaySDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MSPOSPaySDK_Example/Pods-MSPOSPaySDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		BB1D9551059CCBB463CE01C3099F6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62070881E1F92A4B8AF72008DF27FAA3 /* Pods-MSPOSPaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -615,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -623,102 +470,32 @@
 			};
 			name = Release;
 		};
-		B9BC82506396AA88E1B3F3193F51FCE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06E417EFF2F1F45EC6FD2391D5EAA19D /* MSPOSPaySDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MSPOSPaySDK/MSPOSPaySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSPOSPaySDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MSPOSPaySDK/MSPOSPaySDK.modulemap";
-				PRODUCT_MODULE_NAME = MSPOSPaySDK;
-				PRODUCT_NAME = MSPOSPaySDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CB8BC47B86A3A95D451AB6212C7202EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06E417EFF2F1F45EC6FD2391D5EAA19D /* MSPOSPaySDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MSPOSPaySDK/MSPOSPaySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSPOSPaySDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MSPOSPaySDK/MSPOSPaySDK.modulemap";
-				PRODUCT_MODULE_NAME = MSPOSPaySDK;
-				PRODUCT_NAME = MSPOSPaySDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A117E37FEFB2577FDD7DE9612742C17 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9252A92889A1EECFD5FEBAD0CB6CA643 /* Debug */,
-				A427116B3C034FC0336B0C7786ADF75C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F7D9666E4E2AB0B89D7E4B876AF33C4 /* Build configuration list for PBXNativeTarget "MSPOSPaySDK" */ = {
+		E4E726A644B554434223B6A2ACCD9070 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9BC82506396AA88E1B3F3193F51FCE2 /* Debug */,
-				CB8BC47B86A3A95D451AB6212C7202EB /* Release */,
+				06DDB317AA31B35094095845507A7BA0 /* Debug */,
+				1727FF0D185CC71E25ABC6492CB4431F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A86D73EA8B9F367BF2FE30FA92D9EDE7 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Tests" */ = {
+		FB6554BD668AD713DE16AEFCA516AB84 /* Build configuration list for PBXNativeTarget "Pods-MSPOSPaySDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C4840BF266A8EA6B256ED54EDD8AC3F /* Debug */,
-				459083D331D78D83A4016C71C5CC3A35 /* Release */,
+				BB1D9551059CCBB463CE01C3099F6AE9 /* Debug */,
+				7C3D6AE15122A065D769E1D09D887DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

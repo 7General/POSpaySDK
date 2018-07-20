@@ -1,0 +1,1 @@
+../../../../../MSPOSPaySDK/Classes/UMSCashierPlugin.h
