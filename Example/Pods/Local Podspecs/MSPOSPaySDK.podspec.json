@@ -15,12 +15,6 @@
     "git": "https://github.com/7General/POSpaySDK.git",
     "tag": "0.0.1"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "MSPOSPaySDK/Classes/**/*",
-  "resources": "MSPOSPaySDK/Boundles/UMSCashierPlugin.bundle",
-  "vendored_libraries": "MSPOSPaySDK/Frameworks/libUMSCashierPlugin.a",
   "frameworks": [
     "CoreData",
     "UIKit",
@@ -29,5 +23,11 @@
   "libraries": [
     "sqlite3",
     "icucore"
-  ]
+  ],
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSPOSPaySDK/Classes/**/*",
+  "resources": "MSPOSPaySDK/Boundles/UMSCashierPlugin.bundle",
+  "vendored_libraries": "MSPOSPaySDK/Frameworks/libUMSCashierPlugin.a"
 }

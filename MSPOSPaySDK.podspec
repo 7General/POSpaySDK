@@ -22,15 +22,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/7General/POSpaySDK.git', :tag => s.version.to_s }
   
 
+s.frameworks        = 'CoreData', 'UIKit', 'Foundation'
+s.libraries         = 'sqlite3', 'icucore'
+
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MSPOSPaySDK/Classes/**/*'
-  
   s.resources    = 'MSPOSPaySDK/Boundles/UMSCashierPlugin.bundle'
   s.vendored_libraries = 'MSPOSPaySDK/Frameworks/libUMSCashierPlugin.a'
-  
-  s.frameworks        = 'CoreData', 'UIKit', 'Foundation'
-  s.libraries         = 'sqlite3', 'icucore'
+#  s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lc++']}
+
   
 #  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 

@@ -7,12 +7,18 @@
 //
 
 #import "MSPOSAppDelegate.h"
+#import "MSPOSMainViewController.h"
 
 @implementation MSPOSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    MSPOSMainViewController * main = [[MSPOSMainViewController alloc] init];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:main];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
